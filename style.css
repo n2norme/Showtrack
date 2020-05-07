@@ -1,0 +1,487 @@
+*{
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+
+
+.logo{
+    display: block;
+    margin:auto;
+}
+
+.nav{
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    margin: 0 auto;
+    width: 700px;
+    margin-bottom: 40px;
+}
+.nav-list {
+    text-align: center;
+}
+
+.nav-list>li{
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.img-article{
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    width: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.header {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    height: 170%;
+}
+
+.nav1 {
+    display: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 0.4rem;
+}
+
+.nav2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-size: 0.9rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    margin: 0 30px;
+    height: 100%;
+}
+
+.background {
+    position: relative;
+    background-image: url(/Images/pexels-photo-276549-e1518168651468-1\(1\).jpg);
+    background-size: cover;
+    background-position: top center;
+    color: white;
+    text-align: center;
+    padding: 60px;
+    margin: 35px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background p,
+.background h1 {
+    margin: 25px 0;
+}
+
+.background h1 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.background p {
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.top .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin: 40px 0px;
+}
+
+.top .text h2 {
+    position: relative;
+    top: -35px;
+    background-color: #fff;
+    padding: 0 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 22.1px;
+}
+
+.top .text p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.imgarticle,
+.articles p {
+    width: 100%;
+    height: auto;
+    padding: 15px 15px 0 15px;
+}
+
+.articles article,
+.infos,
+.search,
+.share,
+.add,
+.posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.articles article,
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articles p {
+    width: 90%;
+    color: rgb(101, 101, 101);
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 150%;
+    border-top: 1px solid black;
+    padding: 45px 0 0 0;
+}
+
+.articles {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: black;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.articles h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 150%;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 0;
+}
+
+.articles h3 {
+    font-size: 0.8rem;
+    font-weight: 100;
+    position: relative;
+    top: 40px;
+    background-color: white;
+    padding: 5px 15px;
+    margin-top: 0;
+}
+
+.articles h2,
+.articles h3,
+.articles button {
+    text-align: center;
+    border: none;
+}
+
+.articles button {
+    background-color: black;
+    margin-bottom: 20px;
+    color: white;
+    padding: 16px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 150%;
+    margin: 20px 0;
+}
+
+.buttons {
+    background-color: black;
+    margin: 20px 5px;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.buttons:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.pages {
+    display: flex;
+    align-self: center;
+}
+
+.aside {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.infos {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 150%;
+    color: rgb(51, 51, 51);
+    padding: 20px;
+}
+
+.imginfos {
+    width: 100%;
+    padding: 20px 20px 40px 20px;
+}
+
+.signature {
+    width: 50%;
+    padding: 20px 20px 60px 20px;
+}
+
+article,
+.infos,
+.search,
+.share,
+.add,
+.posts {
+    border: 1px solid black;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.infos,
+.search,
+.share,
+.add,
+.posts {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+.posts h2,
+.search h2,
+.share h2,
+.add h2 {
+    position: absolute;
+    top: -30px;
+    background-color: #fff;
+    padding: 0 10px;
+    width: auto;
+    font-weight: 500;
+    line-height: 140%;
+    font-size: 1.2rem;
+    color: rgb(43, 43, 43);
+}
+
+.posts ul {
+    list-style: none;
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+.posts ul li {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 170%;
+    display: block;
+    text-align: left;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    position: relative;
+}
+
+.border {
+    border-bottom: 0.5px solid rgb(187, 187, 187);
+    padding-bottom: 10px;
+}
+
+.posts ul li a {
+    padding-top: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.posts ul li a img {
+    position: absolute;
+    left: 0;
+    margin: 0px 10px 2px 0px;
+}
+
+.posts ul li a h3 {
+    position: relative;
+    left: 55px;
+    top: 2px;
+    margin: 0;
+}
+
+.posts ul li time {
+    position: relative;
+    left: 55px;
+    bottom: 2px;
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19.5px;
+}
+
+.search input {
+    width: 100%;
+    margin: 5% 0;
+}
+
+.share ul {
+    padding: 0;
+    margin: 0;
+}
+
+.share ul li {
+    display: inline-flex;
+}
+
+.share ul li a img {
+    height: 30px;
+}
+
+.footer {
+    background-color: black;
+    height: 100%;
+    color: white;
+    font-size: 0.6rem;
+}
+
+.footertext {
+    position: relative;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+.footertext h3 {
+    letter-spacing: 2px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+.footertext p {
+    color: rgb(101, 101, 101);
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 20px 0;
+    line-height: 200%;
+}
+
+.footerborder {
+    position: absolute;
+    top: 190;
+    width: 15%;
+    border-top: 2px solid rgb(101, 101, 101);
+}
+
+.author {
+    height: 20%;
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    text-align: center;
+    font-weight: 400;
+    border-top: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 90%;
+    margin: 0 30px;
+}
+
+/* Media queries */
+
+@media screen and (min-width:900px){
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width:993px){
+    .aside{
+        position: absolute;
+        top: 875px;
+        left: 1000px;
+        width: 30%;
+    }
+    .articles{
+        width: 70%;
+    }
+
+    .footertext{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
+
+
